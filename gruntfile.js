@@ -6,9 +6,9 @@ module.exports = function (grunt) {
         pkg:'<json:package.json>',
         meta:{
             version:'0.1.0',
-            banner:'/*! fracking - v<%= meta.version %> - ' +
+            banner:'/*! fracker - v<%= meta.version %> - ' +
                 '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
-                '* https://github.com/samdelagarza/fracking\n' +
+                '* https://github.com/samdelagarza/fracker\n' +
                 '* Copyright (c) <%= grunt.template.today("yyyy") %> ' +
                 'TradeStation Technologies, Inc. All rights reserved; Licensed MIT */'
         },
